@@ -1,0 +1,4830 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "array",
+  "items": [
+    {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "weather_state_name": {
+          "type": "string"
+        },
+        "weather_state_abbr": {
+          "type": "string"
+        },
+        "wind_direction_compass": {
+          "type": "string"
+        },
+        "created": {
+          "type": "string"
+        },
+        "applicable_date": {
+          "type": "string"
+        },
+        "min_temp": {
+          "type": "number"
+        },
+        "max_temp": {
+          "type": "number"
+        },
+        "the_temp": {
+          "type": "number"
+        },
+        "wind_speed": {
+          "type": "number"
+        },
+        "wind_direction": {
+          "type": "number"
+        },
+        "air_pressure": {
+          "type": "number"
+        },
+        "humidity": {
+          "type": "integer"
+        },
+        "visibility": {
+          "type": "number"
+        },
+        "predictability": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "id",
+        "weather_state_name",
+        "weather_state_abbr",
+        "wind_direction_compass",
+        "created",
+        "applicable_date",
+        "min_temp",
+        "max_temp",
+        "the_temp",
+        "wind_speed",
+        "wind_direction",
+        "air_pressure",
+        "humidity",
+        "visibility",
+        "predictability"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "weather_state_name": {
+          "type": "string"
+        },
+        "weather_state_abbr": {
+          "type": "string"
+        },
+        "wind_direction_compass": {
+          "type": "string"
+        },
+        "created": {
+          "type": "string"
+        },
+        "applicable_date": {
+          "type": "string"
+        },
+        "min_temp": {
+          "type": "number"
+        },
+        "max_temp": {
+          "type": "number"
+        },
+        "the_temp": {
+          "type": "number"
+        },
+        "wind_speed": {
+          "type": "number"
+        },
+        "wind_direction": {
+          "type": "number"
+        },
+        "air_pressure": {
+          "type": "number"
+        },
+        "humidity": {
+          "type": "integer"
+        },
+        "visibility": {
+          "type": "number"
+        },
+        "predictability": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "id",
+        "weather_state_name",
+        "weather_state_abbr",
+        "wind_direction_compass",
+        "created",
+        "applicable_date",
+        "min_temp",
+        "max_temp",
+        "the_temp",
+        "wind_speed",
+        "wind_direction",
+        "air_pressure",
+        "humidity",
+        "visibility",
+        "predictability"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "weather_state_name": {
+          "type": "string"
+        },
+        "weather_state_abbr": {
+          "type": "string"
+        },
+        "wind_direction_compass": {
+          "type": "string"
+        },
+        "created": {
+          "type": "string"
+        },
+        "applicable_date": {
+          "type": "string"
+        },
+        "min_temp": {
+          "type": "number"
+        },
+        "max_temp": {
+          "type": "number"
+        },
+        "the_temp": {
+          "type": "number"
+        },
+        "wind_speed": {
+          "type": "number"
+        },
+        "wind_direction": {
+          "type": "number"
+        },
+        "air_pressure": {
+          "type": "number"
+        },
+        "humidity": {
+          "type": "integer"
+        },
+        "visibility": {
+          "type": "number"
+        },
+        "predictability": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "id",
+        "weather_state_name",
+        "weather_state_abbr",
+        "wind_direction_compass",
+        "created",
+        "applicable_date",
+        "min_temp",
+        "max_temp",
+        "the_temp",
+        "wind_speed",
+        "wind_direction",
+        "air_pressure",
+        "humidity",
+        "visibility",
+        "predictability"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "weather_state_name": {
+          "type": "string"
+        },
+        "weather_state_abbr": {
+          "type": "string"
+        },
+        "wind_direction_compass": {
+          "type": "string"
+        },
+        "created": {
+          "type": "string"
+        },
+        "applicable_date": {
+          "type": "string"
+        },
+        "min_temp": {
+          "type": "number"
+        },
+        "max_temp": {
+          "type": "number"
+        },
+        "the_temp": {
+          "type": "number"
+        },
+        "wind_speed": {
+          "type": "number"
+        },
+        "wind_direction": {
+          "type": "number"
+        },
+        "air_pressure": {
+          "type": "number"
+        },
+        "humidity": {
+          "type": "integer"
+        },
+        "visibility": {
+          "type": "number"
+        },
+        "predictability": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "id",
+        "weather_state_name",
+        "weather_state_abbr",
+        "wind_direction_compass",
+        "created",
+        "applicable_date",
+        "min_temp",
+        "max_temp",
+        "the_temp",
+        "wind_speed",
+        "wind_direction",
+        "air_pressure",
+        "humidity",
+        "visibility",
+        "predictability"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "weather_state_name": {
+          "type": "string"
+        },
+        "weather_state_abbr": {
+          "type": "string"
+        },
+        "wind_direction_compass": {
+          "type": "string"
+        },
+        "created": {
+          "type": "string"
+        },
+        "applicable_date": {
+          "type": "string"
+        },
+        "min_temp": {
+          "type": "number"
+        },
+        "max_temp": {
+          "type": "number"
+        },
+        "the_temp": {
+          "type": "number"
+        },
+        "wind_speed": {
+          "type": "number"
+        },
+        "wind_direction": {
+          "type": "number"
+        },
+        "air_pressure": {
+          "type": "number"
+        },
+        "humidity": {
+          "type": "integer"
+        },
+        "visibility": {
+          "type": "number"
+        },
+        "predictability": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "id",
+        "weather_state_name",
+        "weather_state_abbr",
+        "wind_direction_compass",
+        "created",
+        "applicable_date",
+        "min_temp",
+        "max_temp",
+        "the_temp",
+        "wind_speed",
+        "wind_direction",
+        "air_pressure",
+        "humidity",
+        "visibility",
+        "predictability"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "weather_state_name": {
+          "type": "string"
+        },
+        "weather_state_abbr": {
+          "type": "string"
+        },
+        "wind_direction_compass": {
+          "type": "string"
+        },
+        "created": {
+          "type": "string"
+        },
+        "applicable_date": {
+          "type": "string"
+        },
+        "min_temp": {
+          "type": "number"
+        },
+        "max_temp": {
+          "type": "number"
+        },
+        "the_temp": {
+          "type": "number"
+        },
+        "wind_speed": {
+          "type": "number"
+        },
+        "wind_direction": {
+          "type": "number"
+        },
+        "air_pressure": {
+          "type": "number"
+        },
+        "humidity": {
+          "type": "integer"
+        },
+        "visibility": {
+          "type": "number"
+        },
+        "predictability": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "id",
+        "weather_state_name",
+        "weather_state_abbr",
+        "wind_direction_compass",
+        "created",
+        "applicable_date",
+        "min_temp",
+        "max_temp",
+        "the_temp",
+        "wind_speed",
+        "wind_direction",
+        "air_pressure",
+        "humidity",
+        "visibility",
+        "predictability"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "weather_state_name": {
+          "type": "string"
+        },
+        "weather_state_abbr": {
+          "type": "string"
+        },
+        "wind_direction_compass": {
+          "type": "string"
+        },
+        "created": {
+          "type": "string"
+        },
+        "applicable_date": {
+          "type": "string"
+        },
+        "min_temp": {
+          "type": "number"
+        },
+        "max_temp": {
+          "type": "number"
+        },
+        "the_temp": {
+          "type": "number"
+        },
+        "wind_speed": {
+          "type": "number"
+        },
+        "wind_direction": {
+          "type": "number"
+        },
+        "air_pressure": {
+          "type": "integer"
+        },
+        "humidity": {
+          "type": "integer"
+        },
+        "visibility": {
+          "type": "number"
+        },
+        "predictability": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "id",
+        "weather_state_name",
+        "weather_state_abbr",
+        "wind_direction_compass",
+        "created",
+        "applicable_date",
+        "min_temp",
+        "max_temp",
+        "the_temp",
+        "wind_speed",
+        "wind_direction",
+        "air_pressure",
+        "humidity",
+        "visibility",
+        "predictability"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "weather_state_name": {
+          "type": "string"
+        },
+        "weather_state_abbr": {
+          "type": "string"
+        },
+        "wind_direction_compass": {
+          "type": "string"
+        },
+        "created": {
+          "type": "string"
+        },
+        "applicable_date": {
+          "type": "string"
+        },
+        "min_temp": {
+          "type": "number"
+        },
+        "max_temp": {
+          "type": "number"
+        },
+        "the_temp": {
+          "type": "number"
+        },
+        "wind_speed": {
+          "type": "number"
+        },
+        "wind_direction": {
+          "type": "number"
+        },
+        "air_pressure": {
+          "type": "integer"
+        },
+        "humidity": {
+          "type": "integer"
+        },
+        "visibility": {
+          "type": "number"
+        },
+        "predictability": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "id",
+        "weather_state_name",
+        "weather_state_abbr",
+        "wind_direction_compass",
+        "created",
+        "applicable_date",
+        "min_temp",
+        "max_temp",
+        "the_temp",
+        "wind_speed",
+        "wind_direction",
+        "air_pressure",
+        "humidity",
+        "visibility",
+        "predictability"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "weather_state_name": {
+          "type": "string"
+        },
+        "weather_state_abbr": {
+          "type": "string"
+        },
+        "wind_direction_compass": {
+          "type": "string"
+        },
+        "created": {
+          "type": "string"
+        },
+        "applicable_date": {
+          "type": "string"
+        },
+        "min_temp": {
+          "type": "number"
+        },
+        "max_temp": {
+          "type": "number"
+        },
+        "the_temp": {
+          "type": "number"
+        },
+        "wind_speed": {
+          "type": "number"
+        },
+        "wind_direction": {
+          "type": "number"
+        },
+        "air_pressure": {
+          "type": "number"
+        },
+        "humidity": {
+          "type": "integer"
+        },
+        "visibility": {
+          "type": "number"
+        },
+        "predictability": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "id",
+        "weather_state_name",
+        "weather_state_abbr",
+        "wind_direction_compass",
+        "created",
+        "applicable_date",
+        "min_temp",
+        "max_temp",
+        "the_temp",
+        "wind_speed",
+        "wind_direction",
+        "air_pressure",
+        "humidity",
+        "visibility",
+        "predictability"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "weather_state_name": {
+          "type": "string"
+        },
+        "weather_state_abbr": {
+          "type": "string"
+        },
+        "wind_direction_compass": {
+          "type": "string"
+        },
+        "created": {
+          "type": "string"
+        },
+        "applicable_date": {
+          "type": "string"
+        },
+        "min_temp": {
+          "type": "number"
+        },
+        "max_temp": {
+          "type": "number"
+        },
+        "the_temp": {
+          "type": "number"
+        },
+        "wind_speed": {
+          "type": "number"
+        },
+        "wind_direction": {
+          "type": "number"
+        },
+        "air_pressure": {
+          "type": "number"
+        },
+        "humidity": {
+          "type": "integer"
+        },
+        "visibility": {
+          "type": "number"
+        },
+        "predictability": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "id",
+        "weather_state_name",
+        "weather_state_abbr",
+        "wind_direction_compass",
+        "created",
+        "applicable_date",
+        "min_temp",
+        "max_temp",
+        "the_temp",
+        "wind_speed",
+        "wind_direction",
+        "air_pressure",
+        "humidity",
+        "visibility",
+        "predictability"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "weather_state_name": {
+          "type": "string"
+        },
+        "weather_state_abbr": {
+          "type": "string"
+        },
+        "wind_direction_compass": {
+          "type": "string"
+        },
+        "created": {
+          "type": "string"
+        },
+        "applicable_date": {
+          "type": "string"
+        },
+        "min_temp": {
+          "type": "number"
+        },
+        "max_temp": {
+          "type": "number"
+        },
+        "the_temp": {
+          "type": "number"
+        },
+        "wind_speed": {
+          "type": "number"
+        },
+        "wind_direction": {
+          "type": "number"
+        },
+        "air_pressure": {
+          "type": "number"
+        },
+        "humidity": {
+          "type": "integer"
+        },
+        "visibility": {
+          "type": "number"
+        },
+        "predictability": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "id",
+        "weather_state_name",
+        "weather_state_abbr",
+        "wind_direction_compass",
+        "created",
+        "applicable_date",
+        "min_temp",
+        "max_temp",
+        "the_temp",
+        "wind_speed",
+        "wind_direction",
+        "air_pressure",
+        "humidity",
+        "visibility",
+        "predictability"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "weather_state_name": {
+          "type": "string"
+        },
+        "weather_state_abbr": {
+          "type": "string"
+        },
+        "wind_direction_compass": {
+          "type": "string"
+        },
+        "created": {
+          "type": "string"
+        },
+        "applicable_date": {
+          "type": "string"
+        },
+        "min_temp": {
+          "type": "number"
+        },
+        "max_temp": {
+          "type": "number"
+        },
+        "the_temp": {
+          "type": "number"
+        },
+        "wind_speed": {
+          "type": "number"
+        },
+        "wind_direction": {
+          "type": "number"
+        },
+        "air_pressure": {
+          "type": "number"
+        },
+        "humidity": {
+          "type": "integer"
+        },
+        "visibility": {
+          "type": "number"
+        },
+        "predictability": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "id",
+        "weather_state_name",
+        "weather_state_abbr",
+        "wind_direction_compass",
+        "created",
+        "applicable_date",
+        "min_temp",
+        "max_temp",
+        "the_temp",
+        "wind_speed",
+        "wind_direction",
+        "air_pressure",
+        "humidity",
+        "visibility",
+        "predictability"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "weather_state_name": {
+          "type": "string"
+        },
+        "weather_state_abbr": {
+          "type": "string"
+        },
+        "wind_direction_compass": {
+          "type": "string"
+        },
+        "created": {
+          "type": "string"
+        },
+        "applicable_date": {
+          "type": "string"
+        },
+        "min_temp": {
+          "type": "number"
+        },
+        "max_temp": {
+          "type": "number"
+        },
+        "the_temp": {
+          "type": "number"
+        },
+        "wind_speed": {
+          "type": "number"
+        },
+        "wind_direction": {
+          "type": "number"
+        },
+        "air_pressure": {
+          "type": "number"
+        },
+        "humidity": {
+          "type": "integer"
+        },
+        "visibility": {
+          "type": "number"
+        },
+        "predictability": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "id",
+        "weather_state_name",
+        "weather_state_abbr",
+        "wind_direction_compass",
+        "created",
+        "applicable_date",
+        "min_temp",
+        "max_temp",
+        "the_temp",
+        "wind_speed",
+        "wind_direction",
+        "air_pressure",
+        "humidity",
+        "visibility",
+        "predictability"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "weather_state_name": {
+          "type": "string"
+        },
+        "weather_state_abbr": {
+          "type": "string"
+        },
+        "wind_direction_compass": {
+          "type": "string"
+        },
+        "created": {
+          "type": "string"
+        },
+        "applicable_date": {
+          "type": "string"
+        },
+        "min_temp": {
+          "type": "number"
+        },
+        "max_temp": {
+          "type": "number"
+        },
+        "the_temp": {
+          "type": "number"
+        },
+        "wind_speed": {
+          "type": "number"
+        },
+        "wind_direction": {
+          "type": "number"
+        },
+        "air_pressure": {
+          "type": "number"
+        },
+        "humidity": {
+          "type": "integer"
+        },
+        "visibility": {
+          "type": "number"
+        },
+        "predictability": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "id",
+        "weather_state_name",
+        "weather_state_abbr",
+        "wind_direction_compass",
+        "created",
+        "applicable_date",
+        "min_temp",
+        "max_temp",
+        "the_temp",
+        "wind_speed",
+        "wind_direction",
+        "air_pressure",
+        "humidity",
+        "visibility",
+        "predictability"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "weather_state_name": {
+          "type": "string"
+        },
+        "weather_state_abbr": {
+          "type": "string"
+        },
+        "wind_direction_compass": {
+          "type": "string"
+        },
+        "created": {
+          "type": "string"
+        },
+        "applicable_date": {
+          "type": "string"
+        },
+        "min_temp": {
+          "type": "number"
+        },
+        "max_temp": {
+          "type": "number"
+        },
+        "the_temp": {
+          "type": "number"
+        },
+        "wind_speed": {
+          "type": "number"
+        },
+        "wind_direction": {
+          "type": "number"
+        },
+        "air_pressure": {
+          "type": "integer"
+        },
+        "humidity": {
+          "type": "integer"
+        },
+        "visibility": {
+          "type": "number"
+        },
+        "predictability": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "id",
+        "weather_state_name",
+        "weather_state_abbr",
+        "wind_direction_compass",
+        "created",
+        "applicable_date",
+        "min_temp",
+        "max_temp",
+        "the_temp",
+        "wind_speed",
+        "wind_direction",
+        "air_pressure",
+        "humidity",
+        "visibility",
+        "predictability"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "weather_state_name": {
+          "type": "string"
+        },
+        "weather_state_abbr": {
+          "type": "string"
+        },
+        "wind_direction_compass": {
+          "type": "string"
+        },
+        "created": {
+          "type": "string"
+        },
+        "applicable_date": {
+          "type": "string"
+        },
+        "min_temp": {
+          "type": "number"
+        },
+        "max_temp": {
+          "type": "number"
+        },
+        "the_temp": {
+          "type": "number"
+        },
+        "wind_speed": {
+          "type": "number"
+        },
+        "wind_direction": {
+          "type": "number"
+        },
+        "air_pressure": {
+          "type": "number"
+        },
+        "humidity": {
+          "type": "integer"
+        },
+        "visibility": {
+          "type": "number"
+        },
+        "predictability": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "id",
+        "weather_state_name",
+        "weather_state_abbr",
+        "wind_direction_compass",
+        "created",
+        "applicable_date",
+        "min_temp",
+        "max_temp",
+        "the_temp",
+        "wind_speed",
+        "wind_direction",
+        "air_pressure",
+        "humidity",
+        "visibility",
+        "predictability"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "weather_state_name": {
+          "type": "string"
+        },
+        "weather_state_abbr": {
+          "type": "string"
+        },
+        "wind_direction_compass": {
+          "type": "string"
+        },
+        "created": {
+          "type": "string"
+        },
+        "applicable_date": {
+          "type": "string"
+        },
+        "min_temp": {
+          "type": "number"
+        },
+        "max_temp": {
+          "type": "number"
+        },
+        "the_temp": {
+          "type": "number"
+        },
+        "wind_speed": {
+          "type": "number"
+        },
+        "wind_direction": {
+          "type": "number"
+        },
+        "air_pressure": {
+          "type": "number"
+        },
+        "humidity": {
+          "type": "integer"
+        },
+        "visibility": {
+          "type": "number"
+        },
+        "predictability": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "id",
+        "weather_state_name",
+        "weather_state_abbr",
+        "wind_direction_compass",
+        "created",
+        "applicable_date",
+        "min_temp",
+        "max_temp",
+        "the_temp",
+        "wind_speed",
+        "wind_direction",
+        "air_pressure",
+        "humidity",
+        "visibility",
+        "predictability"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "weather_state_name": {
+          "type": "string"
+        },
+        "weather_state_abbr": {
+          "type": "string"
+        },
+        "wind_direction_compass": {
+          "type": "string"
+        },
+        "created": {
+          "type": "string"
+        },
+        "applicable_date": {
+          "type": "string"
+        },
+        "min_temp": {
+          "type": "number"
+        },
+        "max_temp": {
+          "type": "number"
+        },
+        "the_temp": {
+          "type": "number"
+        },
+        "wind_speed": {
+          "type": "number"
+        },
+        "wind_direction": {
+          "type": "number"
+        },
+        "air_pressure": {
+          "type": "number"
+        },
+        "humidity": {
+          "type": "integer"
+        },
+        "visibility": {
+          "type": "number"
+        },
+        "predictability": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "id",
+        "weather_state_name",
+        "weather_state_abbr",
+        "wind_direction_compass",
+        "created",
+        "applicable_date",
+        "min_temp",
+        "max_temp",
+        "the_temp",
+        "wind_speed",
+        "wind_direction",
+        "air_pressure",
+        "humidity",
+        "visibility",
+        "predictability"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "weather_state_name": {
+          "type": "string"
+        },
+        "weather_state_abbr": {
+          "type": "string"
+        },
+        "wind_direction_compass": {
+          "type": "string"
+        },
+        "created": {
+          "type": "string"
+        },
+        "applicable_date": {
+          "type": "string"
+        },
+        "min_temp": {
+          "type": "number"
+        },
+        "max_temp": {
+          "type": "number"
+        },
+        "the_temp": {
+          "type": "number"
+        },
+        "wind_speed": {
+          "type": "number"
+        },
+        "wind_direction": {
+          "type": "number"
+        },
+        "air_pressure": {
+          "type": "number"
+        },
+        "humidity": {
+          "type": "integer"
+        },
+        "visibility": {
+          "type": "number"
+        },
+        "predictability": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "id",
+        "weather_state_name",
+        "weather_state_abbr",
+        "wind_direction_compass",
+        "created",
+        "applicable_date",
+        "min_temp",
+        "max_temp",
+        "the_temp",
+        "wind_speed",
+        "wind_direction",
+        "air_pressure",
+        "humidity",
+        "visibility",
+        "predictability"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "weather_state_name": {
+          "type": "string"
+        },
+        "weather_state_abbr": {
+          "type": "string"
+        },
+        "wind_direction_compass": {
+          "type": "string"
+        },
+        "created": {
+          "type": "string"
+        },
+        "applicable_date": {
+          "type": "string"
+        },
+        "min_temp": {
+          "type": "number"
+        },
+        "max_temp": {
+          "type": "number"
+        },
+        "the_temp": {
+          "type": "number"
+        },
+        "wind_speed": {
+          "type": "number"
+        },
+        "wind_direction": {
+          "type": "number"
+        },
+        "air_pressure": {
+          "type": "number"
+        },
+        "humidity": {
+          "type": "integer"
+        },
+        "visibility": {
+          "type": "number"
+        },
+        "predictability": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "id",
+        "weather_state_name",
+        "weather_state_abbr",
+        "wind_direction_compass",
+        "created",
+        "applicable_date",
+        "min_temp",
+        "max_temp",
+        "the_temp",
+        "wind_speed",
+        "wind_direction",
+        "air_pressure",
+        "humidity",
+        "visibility",
+        "predictability"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "weather_state_name": {
+          "type": "string"
+        },
+        "weather_state_abbr": {
+          "type": "string"
+        },
+        "wind_direction_compass": {
+          "type": "string"
+        },
+        "created": {
+          "type": "string"
+        },
+        "applicable_date": {
+          "type": "string"
+        },
+        "min_temp": {
+          "type": "number"
+        },
+        "max_temp": {
+          "type": "number"
+        },
+        "the_temp": {
+          "type": "number"
+        },
+        "wind_speed": {
+          "type": "number"
+        },
+        "wind_direction": {
+          "type": "number"
+        },
+        "air_pressure": {
+          "type": "number"
+        },
+        "humidity": {
+          "type": "integer"
+        },
+        "visibility": {
+          "type": "number"
+        },
+        "predictability": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "id",
+        "weather_state_name",
+        "weather_state_abbr",
+        "wind_direction_compass",
+        "created",
+        "applicable_date",
+        "min_temp",
+        "max_temp",
+        "the_temp",
+        "wind_speed",
+        "wind_direction",
+        "air_pressure",
+        "humidity",
+        "visibility",
+        "predictability"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "weather_state_name": {
+          "type": "string"
+        },
+        "weather_state_abbr": {
+          "type": "string"
+        },
+        "wind_direction_compass": {
+          "type": "string"
+        },
+        "created": {
+          "type": "string"
+        },
+        "applicable_date": {
+          "type": "string"
+        },
+        "min_temp": {
+          "type": "number"
+        },
+        "max_temp": {
+          "type": "number"
+        },
+        "the_temp": {
+          "type": "number"
+        },
+        "wind_speed": {
+          "type": "number"
+        },
+        "wind_direction": {
+          "type": "number"
+        },
+        "air_pressure": {
+          "type": "number"
+        },
+        "humidity": {
+          "type": "integer"
+        },
+        "visibility": {
+          "type": "number"
+        },
+        "predictability": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "id",
+        "weather_state_name",
+        "weather_state_abbr",
+        "wind_direction_compass",
+        "created",
+        "applicable_date",
+        "min_temp",
+        "max_temp",
+        "the_temp",
+        "wind_speed",
+        "wind_direction",
+        "air_pressure",
+        "humidity",
+        "visibility",
+        "predictability"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "weather_state_name": {
+          "type": "string"
+        },
+        "weather_state_abbr": {
+          "type": "string"
+        },
+        "wind_direction_compass": {
+          "type": "string"
+        },
+        "created": {
+          "type": "string"
+        },
+        "applicable_date": {
+          "type": "string"
+        },
+        "min_temp": {
+          "type": "number"
+        },
+        "max_temp": {
+          "type": "number"
+        },
+        "the_temp": {
+          "type": "number"
+        },
+        "wind_speed": {
+          "type": "number"
+        },
+        "wind_direction": {
+          "type": "number"
+        },
+        "air_pressure": {
+          "type": "integer"
+        },
+        "humidity": {
+          "type": "integer"
+        },
+        "visibility": {
+          "type": "number"
+        },
+        "predictability": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "id",
+        "weather_state_name",
+        "weather_state_abbr",
+        "wind_direction_compass",
+        "created",
+        "applicable_date",
+        "min_temp",
+        "max_temp",
+        "the_temp",
+        "wind_speed",
+        "wind_direction",
+        "air_pressure",
+        "humidity",
+        "visibility",
+        "predictability"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "weather_state_name": {
+          "type": "string"
+        },
+        "weather_state_abbr": {
+          "type": "string"
+        },
+        "wind_direction_compass": {
+          "type": "string"
+        },
+        "created": {
+          "type": "string"
+        },
+        "applicable_date": {
+          "type": "string"
+        },
+        "min_temp": {
+          "type": "number"
+        },
+        "max_temp": {
+          "type": "number"
+        },
+        "the_temp": {
+          "type": "number"
+        },
+        "wind_speed": {
+          "type": "number"
+        },
+        "wind_direction": {
+          "type": "number"
+        },
+        "air_pressure": {
+          "type": "number"
+        },
+        "humidity": {
+          "type": "integer"
+        },
+        "visibility": {
+          "type": "number"
+        },
+        "predictability": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "id",
+        "weather_state_name",
+        "weather_state_abbr",
+        "wind_direction_compass",
+        "created",
+        "applicable_date",
+        "min_temp",
+        "max_temp",
+        "the_temp",
+        "wind_speed",
+        "wind_direction",
+        "air_pressure",
+        "humidity",
+        "visibility",
+        "predictability"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "weather_state_name": {
+          "type": "string"
+        },
+        "weather_state_abbr": {
+          "type": "string"
+        },
+        "wind_direction_compass": {
+          "type": "string"
+        },
+        "created": {
+          "type": "string"
+        },
+        "applicable_date": {
+          "type": "string"
+        },
+        "min_temp": {
+          "type": "number"
+        },
+        "max_temp": {
+          "type": "number"
+        },
+        "the_temp": {
+          "type": "number"
+        },
+        "wind_speed": {
+          "type": "number"
+        },
+        "wind_direction": {
+          "type": "number"
+        },
+        "air_pressure": {
+          "type": "number"
+        },
+        "humidity": {
+          "type": "integer"
+        },
+        "visibility": {
+          "type": "number"
+        },
+        "predictability": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "id",
+        "weather_state_name",
+        "weather_state_abbr",
+        "wind_direction_compass",
+        "created",
+        "applicable_date",
+        "min_temp",
+        "max_temp",
+        "the_temp",
+        "wind_speed",
+        "wind_direction",
+        "air_pressure",
+        "humidity",
+        "visibility",
+        "predictability"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "weather_state_name": {
+          "type": "string"
+        },
+        "weather_state_abbr": {
+          "type": "string"
+        },
+        "wind_direction_compass": {
+          "type": "string"
+        },
+        "created": {
+          "type": "string"
+        },
+        "applicable_date": {
+          "type": "string"
+        },
+        "min_temp": {
+          "type": "number"
+        },
+        "max_temp": {
+          "type": "number"
+        },
+        "the_temp": {
+          "type": "number"
+        },
+        "wind_speed": {
+          "type": "number"
+        },
+        "wind_direction": {
+          "type": "number"
+        },
+        "air_pressure": {
+          "type": "number"
+        },
+        "humidity": {
+          "type": "integer"
+        },
+        "visibility": {
+          "type": "number"
+        },
+        "predictability": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "id",
+        "weather_state_name",
+        "weather_state_abbr",
+        "wind_direction_compass",
+        "created",
+        "applicable_date",
+        "min_temp",
+        "max_temp",
+        "the_temp",
+        "wind_speed",
+        "wind_direction",
+        "air_pressure",
+        "humidity",
+        "visibility",
+        "predictability"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "weather_state_name": {
+          "type": "string"
+        },
+        "weather_state_abbr": {
+          "type": "string"
+        },
+        "wind_direction_compass": {
+          "type": "string"
+        },
+        "created": {
+          "type": "string"
+        },
+        "applicable_date": {
+          "type": "string"
+        },
+        "min_temp": {
+          "type": "number"
+        },
+        "max_temp": {
+          "type": "number"
+        },
+        "the_temp": {
+          "type": "number"
+        },
+        "wind_speed": {
+          "type": "number"
+        },
+        "wind_direction": {
+          "type": "number"
+        },
+        "air_pressure": {
+          "type": "number"
+        },
+        "humidity": {
+          "type": "integer"
+        },
+        "visibility": {
+          "type": "number"
+        },
+        "predictability": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "id",
+        "weather_state_name",
+        "weather_state_abbr",
+        "wind_direction_compass",
+        "created",
+        "applicable_date",
+        "min_temp",
+        "max_temp",
+        "the_temp",
+        "wind_speed",
+        "wind_direction",
+        "air_pressure",
+        "humidity",
+        "visibility",
+        "predictability"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "weather_state_name": {
+          "type": "string"
+        },
+        "weather_state_abbr": {
+          "type": "string"
+        },
+        "wind_direction_compass": {
+          "type": "string"
+        },
+        "created": {
+          "type": "string"
+        },
+        "applicable_date": {
+          "type": "string"
+        },
+        "min_temp": {
+          "type": "number"
+        },
+        "max_temp": {
+          "type": "number"
+        },
+        "the_temp": {
+          "type": "number"
+        },
+        "wind_speed": {
+          "type": "number"
+        },
+        "wind_direction": {
+          "type": "number"
+        },
+        "air_pressure": {
+          "type": "number"
+        },
+        "humidity": {
+          "type": "integer"
+        },
+        "visibility": {
+          "type": "number"
+        },
+        "predictability": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "id",
+        "weather_state_name",
+        "weather_state_abbr",
+        "wind_direction_compass",
+        "created",
+        "applicable_date",
+        "min_temp",
+        "max_temp",
+        "the_temp",
+        "wind_speed",
+        "wind_direction",
+        "air_pressure",
+        "humidity",
+        "visibility",
+        "predictability"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "weather_state_name": {
+          "type": "string"
+        },
+        "weather_state_abbr": {
+          "type": "string"
+        },
+        "wind_direction_compass": {
+          "type": "string"
+        },
+        "created": {
+          "type": "string"
+        },
+        "applicable_date": {
+          "type": "string"
+        },
+        "min_temp": {
+          "type": "number"
+        },
+        "max_temp": {
+          "type": "number"
+        },
+        "the_temp": {
+          "type": "number"
+        },
+        "wind_speed": {
+          "type": "number"
+        },
+        "wind_direction": {
+          "type": "number"
+        },
+        "air_pressure": {
+          "type": "number"
+        },
+        "humidity": {
+          "type": "integer"
+        },
+        "visibility": {
+          "type": "number"
+        },
+        "predictability": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "id",
+        "weather_state_name",
+        "weather_state_abbr",
+        "wind_direction_compass",
+        "created",
+        "applicable_date",
+        "min_temp",
+        "max_temp",
+        "the_temp",
+        "wind_speed",
+        "wind_direction",
+        "air_pressure",
+        "humidity",
+        "visibility",
+        "predictability"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "weather_state_name": {
+          "type": "string"
+        },
+        "weather_state_abbr": {
+          "type": "string"
+        },
+        "wind_direction_compass": {
+          "type": "string"
+        },
+        "created": {
+          "type": "string"
+        },
+        "applicable_date": {
+          "type": "string"
+        },
+        "min_temp": {
+          "type": "number"
+        },
+        "max_temp": {
+          "type": "number"
+        },
+        "the_temp": {
+          "type": "number"
+        },
+        "wind_speed": {
+          "type": "number"
+        },
+        "wind_direction": {
+          "type": "number"
+        },
+        "air_pressure": {
+          "type": "number"
+        },
+        "humidity": {
+          "type": "integer"
+        },
+        "visibility": {
+          "type": "number"
+        },
+        "predictability": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "id",
+        "weather_state_name",
+        "weather_state_abbr",
+        "wind_direction_compass",
+        "created",
+        "applicable_date",
+        "min_temp",
+        "max_temp",
+        "the_temp",
+        "wind_speed",
+        "wind_direction",
+        "air_pressure",
+        "humidity",
+        "visibility",
+        "predictability"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "weather_state_name": {
+          "type": "string"
+        },
+        "weather_state_abbr": {
+          "type": "string"
+        },
+        "wind_direction_compass": {
+          "type": "string"
+        },
+        "created": {
+          "type": "string"
+        },
+        "applicable_date": {
+          "type": "string"
+        },
+        "min_temp": {
+          "type": "number"
+        },
+        "max_temp": {
+          "type": "number"
+        },
+        "the_temp": {
+          "type": "number"
+        },
+        "wind_speed": {
+          "type": "number"
+        },
+        "wind_direction": {
+          "type": "number"
+        },
+        "air_pressure": {
+          "type": "integer"
+        },
+        "humidity": {
+          "type": "integer"
+        },
+        "visibility": {
+          "type": "number"
+        },
+        "predictability": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "id",
+        "weather_state_name",
+        "weather_state_abbr",
+        "wind_direction_compass",
+        "created",
+        "applicable_date",
+        "min_temp",
+        "max_temp",
+        "the_temp",
+        "wind_speed",
+        "wind_direction",
+        "air_pressure",
+        "humidity",
+        "visibility",
+        "predictability"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "weather_state_name": {
+          "type": "string"
+        },
+        "weather_state_abbr": {
+          "type": "string"
+        },
+        "wind_direction_compass": {
+          "type": "string"
+        },
+        "created": {
+          "type": "string"
+        },
+        "applicable_date": {
+          "type": "string"
+        },
+        "min_temp": {
+          "type": "number"
+        },
+        "max_temp": {
+          "type": "number"
+        },
+        "the_temp": {
+          "type": "number"
+        },
+        "wind_speed": {
+          "type": "number"
+        },
+        "wind_direction": {
+          "type": "number"
+        },
+        "air_pressure": {
+          "type": "integer"
+        },
+        "humidity": {
+          "type": "integer"
+        },
+        "visibility": {
+          "type": "number"
+        },
+        "predictability": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "id",
+        "weather_state_name",
+        "weather_state_abbr",
+        "wind_direction_compass",
+        "created",
+        "applicable_date",
+        "min_temp",
+        "max_temp",
+        "the_temp",
+        "wind_speed",
+        "wind_direction",
+        "air_pressure",
+        "humidity",
+        "visibility",
+        "predictability"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "weather_state_name": {
+          "type": "string"
+        },
+        "weather_state_abbr": {
+          "type": "string"
+        },
+        "wind_direction_compass": {
+          "type": "string"
+        },
+        "created": {
+          "type": "string"
+        },
+        "applicable_date": {
+          "type": "string"
+        },
+        "min_temp": {
+          "type": "number"
+        },
+        "max_temp": {
+          "type": "number"
+        },
+        "the_temp": {
+          "type": "number"
+        },
+        "wind_speed": {
+          "type": "number"
+        },
+        "wind_direction": {
+          "type": "number"
+        },
+        "air_pressure": {
+          "type": "number"
+        },
+        "humidity": {
+          "type": "integer"
+        },
+        "visibility": {
+          "type": "number"
+        },
+        "predictability": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "id",
+        "weather_state_name",
+        "weather_state_abbr",
+        "wind_direction_compass",
+        "created",
+        "applicable_date",
+        "min_temp",
+        "max_temp",
+        "the_temp",
+        "wind_speed",
+        "wind_direction",
+        "air_pressure",
+        "humidity",
+        "visibility",
+        "predictability"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "weather_state_name": {
+          "type": "string"
+        },
+        "weather_state_abbr": {
+          "type": "string"
+        },
+        "wind_direction_compass": {
+          "type": "string"
+        },
+        "created": {
+          "type": "string"
+        },
+        "applicable_date": {
+          "type": "string"
+        },
+        "min_temp": {
+          "type": "number"
+        },
+        "max_temp": {
+          "type": "number"
+        },
+        "the_temp": {
+          "type": "number"
+        },
+        "wind_speed": {
+          "type": "number"
+        },
+        "wind_direction": {
+          "type": "number"
+        },
+        "air_pressure": {
+          "type": "number"
+        },
+        "humidity": {
+          "type": "integer"
+        },
+        "visibility": {
+          "type": "number"
+        },
+        "predictability": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "id",
+        "weather_state_name",
+        "weather_state_abbr",
+        "wind_direction_compass",
+        "created",
+        "applicable_date",
+        "min_temp",
+        "max_temp",
+        "the_temp",
+        "wind_speed",
+        "wind_direction",
+        "air_pressure",
+        "humidity",
+        "visibility",
+        "predictability"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "weather_state_name": {
+          "type": "string"
+        },
+        "weather_state_abbr": {
+          "type": "string"
+        },
+        "wind_direction_compass": {
+          "type": "string"
+        },
+        "created": {
+          "type": "string"
+        },
+        "applicable_date": {
+          "type": "string"
+        },
+        "min_temp": {
+          "type": "number"
+        },
+        "max_temp": {
+          "type": "number"
+        },
+        "the_temp": {
+          "type": "number"
+        },
+        "wind_speed": {
+          "type": "number"
+        },
+        "wind_direction": {
+          "type": "number"
+        },
+        "air_pressure": {
+          "type": "number"
+        },
+        "humidity": {
+          "type": "integer"
+        },
+        "visibility": {
+          "type": "number"
+        },
+        "predictability": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "id",
+        "weather_state_name",
+        "weather_state_abbr",
+        "wind_direction_compass",
+        "created",
+        "applicable_date",
+        "min_temp",
+        "max_temp",
+        "the_temp",
+        "wind_speed",
+        "wind_direction",
+        "air_pressure",
+        "humidity",
+        "visibility",
+        "predictability"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "weather_state_name": {
+          "type": "string"
+        },
+        "weather_state_abbr": {
+          "type": "string"
+        },
+        "wind_direction_compass": {
+          "type": "string"
+        },
+        "created": {
+          "type": "string"
+        },
+        "applicable_date": {
+          "type": "string"
+        },
+        "min_temp": {
+          "type": "number"
+        },
+        "max_temp": {
+          "type": "number"
+        },
+        "the_temp": {
+          "type": "number"
+        },
+        "wind_speed": {
+          "type": "number"
+        },
+        "wind_direction": {
+          "type": "number"
+        },
+        "air_pressure": {
+          "type": "number"
+        },
+        "humidity": {
+          "type": "integer"
+        },
+        "visibility": {
+          "type": "number"
+        },
+        "predictability": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "id",
+        "weather_state_name",
+        "weather_state_abbr",
+        "wind_direction_compass",
+        "created",
+        "applicable_date",
+        "min_temp",
+        "max_temp",
+        "the_temp",
+        "wind_speed",
+        "wind_direction",
+        "air_pressure",
+        "humidity",
+        "visibility",
+        "predictability"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "weather_state_name": {
+          "type": "string"
+        },
+        "weather_state_abbr": {
+          "type": "string"
+        },
+        "wind_direction_compass": {
+          "type": "string"
+        },
+        "created": {
+          "type": "string"
+        },
+        "applicable_date": {
+          "type": "string"
+        },
+        "min_temp": {
+          "type": "number"
+        },
+        "max_temp": {
+          "type": "number"
+        },
+        "the_temp": {
+          "type": "number"
+        },
+        "wind_speed": {
+          "type": "number"
+        },
+        "wind_direction": {
+          "type": "number"
+        },
+        "air_pressure": {
+          "type": "integer"
+        },
+        "humidity": {
+          "type": "integer"
+        },
+        "visibility": {
+          "type": "number"
+        },
+        "predictability": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "id",
+        "weather_state_name",
+        "weather_state_abbr",
+        "wind_direction_compass",
+        "created",
+        "applicable_date",
+        "min_temp",
+        "max_temp",
+        "the_temp",
+        "wind_speed",
+        "wind_direction",
+        "air_pressure",
+        "humidity",
+        "visibility",
+        "predictability"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "weather_state_name": {
+          "type": "string"
+        },
+        "weather_state_abbr": {
+          "type": "string"
+        },
+        "wind_direction_compass": {
+          "type": "string"
+        },
+        "created": {
+          "type": "string"
+        },
+        "applicable_date": {
+          "type": "string"
+        },
+        "min_temp": {
+          "type": "number"
+        },
+        "max_temp": {
+          "type": "number"
+        },
+        "the_temp": {
+          "type": "number"
+        },
+        "wind_speed": {
+          "type": "number"
+        },
+        "wind_direction": {
+          "type": "number"
+        },
+        "air_pressure": {
+          "type": "number"
+        },
+        "humidity": {
+          "type": "integer"
+        },
+        "visibility": {
+          "type": "number"
+        },
+        "predictability": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "id",
+        "weather_state_name",
+        "weather_state_abbr",
+        "wind_direction_compass",
+        "created",
+        "applicable_date",
+        "min_temp",
+        "max_temp",
+        "the_temp",
+        "wind_speed",
+        "wind_direction",
+        "air_pressure",
+        "humidity",
+        "visibility",
+        "predictability"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "weather_state_name": {
+          "type": "string"
+        },
+        "weather_state_abbr": {
+          "type": "string"
+        },
+        "wind_direction_compass": {
+          "type": "string"
+        },
+        "created": {
+          "type": "string"
+        },
+        "applicable_date": {
+          "type": "string"
+        },
+        "min_temp": {
+          "type": "number"
+        },
+        "max_temp": {
+          "type": "number"
+        },
+        "the_temp": {
+          "type": "number"
+        },
+        "wind_speed": {
+          "type": "number"
+        },
+        "wind_direction": {
+          "type": "number"
+        },
+        "air_pressure": {
+          "type": "number"
+        },
+        "humidity": {
+          "type": "integer"
+        },
+        "visibility": {
+          "type": "number"
+        },
+        "predictability": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "id",
+        "weather_state_name",
+        "weather_state_abbr",
+        "wind_direction_compass",
+        "created",
+        "applicable_date",
+        "min_temp",
+        "max_temp",
+        "the_temp",
+        "wind_speed",
+        "wind_direction",
+        "air_pressure",
+        "humidity",
+        "visibility",
+        "predictability"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "weather_state_name": {
+          "type": "string"
+        },
+        "weather_state_abbr": {
+          "type": "string"
+        },
+        "wind_direction_compass": {
+          "type": "string"
+        },
+        "created": {
+          "type": "string"
+        },
+        "applicable_date": {
+          "type": "string"
+        },
+        "min_temp": {
+          "type": "number"
+        },
+        "max_temp": {
+          "type": "number"
+        },
+        "the_temp": {
+          "type": "number"
+        },
+        "wind_speed": {
+          "type": "number"
+        },
+        "wind_direction": {
+          "type": "number"
+        },
+        "air_pressure": {
+          "type": "integer"
+        },
+        "humidity": {
+          "type": "integer"
+        },
+        "visibility": {
+          "type": "number"
+        },
+        "predictability": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "id",
+        "weather_state_name",
+        "weather_state_abbr",
+        "wind_direction_compass",
+        "created",
+        "applicable_date",
+        "min_temp",
+        "max_temp",
+        "the_temp",
+        "wind_speed",
+        "wind_direction",
+        "air_pressure",
+        "humidity",
+        "visibility",
+        "predictability"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "weather_state_name": {
+          "type": "string"
+        },
+        "weather_state_abbr": {
+          "type": "string"
+        },
+        "wind_direction_compass": {
+          "type": "string"
+        },
+        "created": {
+          "type": "string"
+        },
+        "applicable_date": {
+          "type": "string"
+        },
+        "min_temp": {
+          "type": "number"
+        },
+        "max_temp": {
+          "type": "number"
+        },
+        "the_temp": {
+          "type": "number"
+        },
+        "wind_speed": {
+          "type": "number"
+        },
+        "wind_direction": {
+          "type": "number"
+        },
+        "air_pressure": {
+          "type": "integer"
+        },
+        "humidity": {
+          "type": "integer"
+        },
+        "visibility": {
+          "type": "number"
+        },
+        "predictability": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "id",
+        "weather_state_name",
+        "weather_state_abbr",
+        "wind_direction_compass",
+        "created",
+        "applicable_date",
+        "min_temp",
+        "max_temp",
+        "the_temp",
+        "wind_speed",
+        "wind_direction",
+        "air_pressure",
+        "humidity",
+        "visibility",
+        "predictability"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "weather_state_name": {
+          "type": "string"
+        },
+        "weather_state_abbr": {
+          "type": "string"
+        },
+        "wind_direction_compass": {
+          "type": "string"
+        },
+        "created": {
+          "type": "string"
+        },
+        "applicable_date": {
+          "type": "string"
+        },
+        "min_temp": {
+          "type": "number"
+        },
+        "max_temp": {
+          "type": "number"
+        },
+        "the_temp": {
+          "type": "number"
+        },
+        "wind_speed": {
+          "type": "number"
+        },
+        "wind_direction": {
+          "type": "number"
+        },
+        "air_pressure": {
+          "type": "integer"
+        },
+        "humidity": {
+          "type": "integer"
+        },
+        "visibility": {
+          "type": "number"
+        },
+        "predictability": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "id",
+        "weather_state_name",
+        "weather_state_abbr",
+        "wind_direction_compass",
+        "created",
+        "applicable_date",
+        "min_temp",
+        "max_temp",
+        "the_temp",
+        "wind_speed",
+        "wind_direction",
+        "air_pressure",
+        "humidity",
+        "visibility",
+        "predictability"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "weather_state_name": {
+          "type": "string"
+        },
+        "weather_state_abbr": {
+          "type": "string"
+        },
+        "wind_direction_compass": {
+          "type": "string"
+        },
+        "created": {
+          "type": "string"
+        },
+        "applicable_date": {
+          "type": "string"
+        },
+        "min_temp": {
+          "type": "number"
+        },
+        "max_temp": {
+          "type": "number"
+        },
+        "the_temp": {
+          "type": "number"
+        },
+        "wind_speed": {
+          "type": "number"
+        },
+        "wind_direction": {
+          "type": "integer"
+        },
+        "air_pressure": {
+          "type": "integer"
+        },
+        "humidity": {
+          "type": "integer"
+        },
+        "visibility": {
+          "type": "number"
+        },
+        "predictability": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "id",
+        "weather_state_name",
+        "weather_state_abbr",
+        "wind_direction_compass",
+        "created",
+        "applicable_date",
+        "min_temp",
+        "max_temp",
+        "the_temp",
+        "wind_speed",
+        "wind_direction",
+        "air_pressure",
+        "humidity",
+        "visibility",
+        "predictability"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "weather_state_name": {
+          "type": "string"
+        },
+        "weather_state_abbr": {
+          "type": "string"
+        },
+        "wind_direction_compass": {
+          "type": "string"
+        },
+        "created": {
+          "type": "string"
+        },
+        "applicable_date": {
+          "type": "string"
+        },
+        "min_temp": {
+          "type": "number"
+        },
+        "max_temp": {
+          "type": "number"
+        },
+        "the_temp": {
+          "type": "number"
+        },
+        "wind_speed": {
+          "type": "number"
+        },
+        "wind_direction": {
+          "type": "number"
+        },
+        "air_pressure": {
+          "type": "integer"
+        },
+        "humidity": {
+          "type": "integer"
+        },
+        "visibility": {
+          "type": "number"
+        },
+        "predictability": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "id",
+        "weather_state_name",
+        "weather_state_abbr",
+        "wind_direction_compass",
+        "created",
+        "applicable_date",
+        "min_temp",
+        "max_temp",
+        "the_temp",
+        "wind_speed",
+        "wind_direction",
+        "air_pressure",
+        "humidity",
+        "visibility",
+        "predictability"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "weather_state_name": {
+          "type": "string"
+        },
+        "weather_state_abbr": {
+          "type": "string"
+        },
+        "wind_direction_compass": {
+          "type": "string"
+        },
+        "created": {
+          "type": "string"
+        },
+        "applicable_date": {
+          "type": "string"
+        },
+        "min_temp": {
+          "type": "number"
+        },
+        "max_temp": {
+          "type": "number"
+        },
+        "the_temp": {
+          "type": "number"
+        },
+        "wind_speed": {
+          "type": "number"
+        },
+        "wind_direction": {
+          "type": "integer"
+        },
+        "air_pressure": {
+          "type": "integer"
+        },
+        "humidity": {
+          "type": "integer"
+        },
+        "visibility": {
+          "type": "number"
+        },
+        "predictability": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "id",
+        "weather_state_name",
+        "weather_state_abbr",
+        "wind_direction_compass",
+        "created",
+        "applicable_date",
+        "min_temp",
+        "max_temp",
+        "the_temp",
+        "wind_speed",
+        "wind_direction",
+        "air_pressure",
+        "humidity",
+        "visibility",
+        "predictability"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "weather_state_name": {
+          "type": "string"
+        },
+        "weather_state_abbr": {
+          "type": "string"
+        },
+        "wind_direction_compass": {
+          "type": "string"
+        },
+        "created": {
+          "type": "string"
+        },
+        "applicable_date": {
+          "type": "string"
+        },
+        "min_temp": {
+          "type": "number"
+        },
+        "max_temp": {
+          "type": "number"
+        },
+        "the_temp": {
+          "type": "number"
+        },
+        "wind_speed": {
+          "type": "number"
+        },
+        "wind_direction": {
+          "type": "number"
+        },
+        "air_pressure": {
+          "type": "integer"
+        },
+        "humidity": {
+          "type": "integer"
+        },
+        "visibility": {
+          "type": "number"
+        },
+        "predictability": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "id",
+        "weather_state_name",
+        "weather_state_abbr",
+        "wind_direction_compass",
+        "created",
+        "applicable_date",
+        "min_temp",
+        "max_temp",
+        "the_temp",
+        "wind_speed",
+        "wind_direction",
+        "air_pressure",
+        "humidity",
+        "visibility",
+        "predictability"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "weather_state_name": {
+          "type": "string"
+        },
+        "weather_state_abbr": {
+          "type": "string"
+        },
+        "wind_direction_compass": {
+          "type": "string"
+        },
+        "created": {
+          "type": "string"
+        },
+        "applicable_date": {
+          "type": "string"
+        },
+        "min_temp": {
+          "type": "number"
+        },
+        "max_temp": {
+          "type": "number"
+        },
+        "the_temp": {
+          "type": "number"
+        },
+        "wind_speed": {
+          "type": "number"
+        },
+        "wind_direction": {
+          "type": "number"
+        },
+        "air_pressure": {
+          "type": "integer"
+        },
+        "humidity": {
+          "type": "integer"
+        },
+        "visibility": {
+          "type": "number"
+        },
+        "predictability": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "id",
+        "weather_state_name",
+        "weather_state_abbr",
+        "wind_direction_compass",
+        "created",
+        "applicable_date",
+        "min_temp",
+        "max_temp",
+        "the_temp",
+        "wind_speed",
+        "wind_direction",
+        "air_pressure",
+        "humidity",
+        "visibility",
+        "predictability"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "weather_state_name": {
+          "type": "string"
+        },
+        "weather_state_abbr": {
+          "type": "string"
+        },
+        "wind_direction_compass": {
+          "type": "string"
+        },
+        "created": {
+          "type": "string"
+        },
+        "applicable_date": {
+          "type": "string"
+        },
+        "min_temp": {
+          "type": "number"
+        },
+        "max_temp": {
+          "type": "number"
+        },
+        "the_temp": {
+          "type": "number"
+        },
+        "wind_speed": {
+          "type": "number"
+        },
+        "wind_direction": {
+          "type": "number"
+        },
+        "air_pressure": {
+          "type": "integer"
+        },
+        "humidity": {
+          "type": "integer"
+        },
+        "visibility": {
+          "type": "number"
+        },
+        "predictability": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "id",
+        "weather_state_name",
+        "weather_state_abbr",
+        "wind_direction_compass",
+        "created",
+        "applicable_date",
+        "min_temp",
+        "max_temp",
+        "the_temp",
+        "wind_speed",
+        "wind_direction",
+        "air_pressure",
+        "humidity",
+        "visibility",
+        "predictability"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "weather_state_name": {
+          "type": "string"
+        },
+        "weather_state_abbr": {
+          "type": "string"
+        },
+        "wind_direction_compass": {
+          "type": "string"
+        },
+        "created": {
+          "type": "string"
+        },
+        "applicable_date": {
+          "type": "string"
+        },
+        "min_temp": {
+          "type": "number"
+        },
+        "max_temp": {
+          "type": "number"
+        },
+        "the_temp": {
+          "type": "number"
+        },
+        "wind_speed": {
+          "type": "number"
+        },
+        "wind_direction": {
+          "type": "integer"
+        },
+        "air_pressure": {
+          "type": "integer"
+        },
+        "humidity": {
+          "type": "integer"
+        },
+        "visibility": {
+          "type": "number"
+        },
+        "predictability": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "id",
+        "weather_state_name",
+        "weather_state_abbr",
+        "wind_direction_compass",
+        "created",
+        "applicable_date",
+        "min_temp",
+        "max_temp",
+        "the_temp",
+        "wind_speed",
+        "wind_direction",
+        "air_pressure",
+        "humidity",
+        "visibility",
+        "predictability"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "weather_state_name": {
+          "type": "string"
+        },
+        "weather_state_abbr": {
+          "type": "string"
+        },
+        "wind_direction_compass": {
+          "type": "string"
+        },
+        "created": {
+          "type": "string"
+        },
+        "applicable_date": {
+          "type": "string"
+        },
+        "min_temp": {
+          "type": "number"
+        },
+        "max_temp": {
+          "type": "number"
+        },
+        "the_temp": {
+          "type": "number"
+        },
+        "wind_speed": {
+          "type": "number"
+        },
+        "wind_direction": {
+          "type": "integer"
+        },
+        "air_pressure": {
+          "type": "integer"
+        },
+        "humidity": {
+          "type": "integer"
+        },
+        "visibility": {
+          "type": "number"
+        },
+        "predictability": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "id",
+        "weather_state_name",
+        "weather_state_abbr",
+        "wind_direction_compass",
+        "created",
+        "applicable_date",
+        "min_temp",
+        "max_temp",
+        "the_temp",
+        "wind_speed",
+        "wind_direction",
+        "air_pressure",
+        "humidity",
+        "visibility",
+        "predictability"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "weather_state_name": {
+          "type": "string"
+        },
+        "weather_state_abbr": {
+          "type": "string"
+        },
+        "wind_direction_compass": {
+          "type": "string"
+        },
+        "created": {
+          "type": "string"
+        },
+        "applicable_date": {
+          "type": "string"
+        },
+        "min_temp": {
+          "type": "number"
+        },
+        "max_temp": {
+          "type": "number"
+        },
+        "the_temp": {
+          "type": "number"
+        },
+        "wind_speed": {
+          "type": "number"
+        },
+        "wind_direction": {
+          "type": "integer"
+        },
+        "air_pressure": {
+          "type": "integer"
+        },
+        "humidity": {
+          "type": "integer"
+        },
+        "visibility": {
+          "type": "number"
+        },
+        "predictability": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "id",
+        "weather_state_name",
+        "weather_state_abbr",
+        "wind_direction_compass",
+        "created",
+        "applicable_date",
+        "min_temp",
+        "max_temp",
+        "the_temp",
+        "wind_speed",
+        "wind_direction",
+        "air_pressure",
+        "humidity",
+        "visibility",
+        "predictability"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "weather_state_name": {
+          "type": "string"
+        },
+        "weather_state_abbr": {
+          "type": "string"
+        },
+        "wind_direction_compass": {
+          "type": "string"
+        },
+        "created": {
+          "type": "string"
+        },
+        "applicable_date": {
+          "type": "string"
+        },
+        "min_temp": {
+          "type": "number"
+        },
+        "max_temp": {
+          "type": "number"
+        },
+        "the_temp": {
+          "type": "number"
+        },
+        "wind_speed": {
+          "type": "number"
+        },
+        "wind_direction": {
+          "type": "number"
+        },
+        "air_pressure": {
+          "type": "integer"
+        },
+        "humidity": {
+          "type": "integer"
+        },
+        "visibility": {
+          "type": "number"
+        },
+        "predictability": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "id",
+        "weather_state_name",
+        "weather_state_abbr",
+        "wind_direction_compass",
+        "created",
+        "applicable_date",
+        "min_temp",
+        "max_temp",
+        "the_temp",
+        "wind_speed",
+        "wind_direction",
+        "air_pressure",
+        "humidity",
+        "visibility",
+        "predictability"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "weather_state_name": {
+          "type": "string"
+        },
+        "weather_state_abbr": {
+          "type": "string"
+        },
+        "wind_direction_compass": {
+          "type": "string"
+        },
+        "created": {
+          "type": "string"
+        },
+        "applicable_date": {
+          "type": "string"
+        },
+        "min_temp": {
+          "type": "number"
+        },
+        "max_temp": {
+          "type": "number"
+        },
+        "the_temp": {
+          "type": "number"
+        },
+        "wind_speed": {
+          "type": "number"
+        },
+        "wind_direction": {
+          "type": "number"
+        },
+        "air_pressure": {
+          "type": "integer"
+        },
+        "humidity": {
+          "type": "integer"
+        },
+        "visibility": {
+          "type": "number"
+        },
+        "predictability": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "id",
+        "weather_state_name",
+        "weather_state_abbr",
+        "wind_direction_compass",
+        "created",
+        "applicable_date",
+        "min_temp",
+        "max_temp",
+        "the_temp",
+        "wind_speed",
+        "wind_direction",
+        "air_pressure",
+        "humidity",
+        "visibility",
+        "predictability"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "weather_state_name": {
+          "type": "string"
+        },
+        "weather_state_abbr": {
+          "type": "string"
+        },
+        "wind_direction_compass": {
+          "type": "string"
+        },
+        "created": {
+          "type": "string"
+        },
+        "applicable_date": {
+          "type": "string"
+        },
+        "min_temp": {
+          "type": "number"
+        },
+        "max_temp": {
+          "type": "number"
+        },
+        "the_temp": {
+          "type": "number"
+        },
+        "wind_speed": {
+          "type": "number"
+        },
+        "wind_direction": {
+          "type": "number"
+        },
+        "air_pressure": {
+          "type": "integer"
+        },
+        "humidity": {
+          "type": "integer"
+        },
+        "visibility": {
+          "type": "number"
+        },
+        "predictability": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "id",
+        "weather_state_name",
+        "weather_state_abbr",
+        "wind_direction_compass",
+        "created",
+        "applicable_date",
+        "min_temp",
+        "max_temp",
+        "the_temp",
+        "wind_speed",
+        "wind_direction",
+        "air_pressure",
+        "humidity",
+        "visibility",
+        "predictability"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "weather_state_name": {
+          "type": "string"
+        },
+        "weather_state_abbr": {
+          "type": "string"
+        },
+        "wind_direction_compass": {
+          "type": "string"
+        },
+        "created": {
+          "type": "string"
+        },
+        "applicable_date": {
+          "type": "string"
+        },
+        "min_temp": {
+          "type": "number"
+        },
+        "max_temp": {
+          "type": "number"
+        },
+        "the_temp": {
+          "type": "number"
+        },
+        "wind_speed": {
+          "type": "number"
+        },
+        "wind_direction": {
+          "type": "integer"
+        },
+        "air_pressure": {
+          "type": "integer"
+        },
+        "humidity": {
+          "type": "integer"
+        },
+        "visibility": {
+          "type": "number"
+        },
+        "predictability": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "id",
+        "weather_state_name",
+        "weather_state_abbr",
+        "wind_direction_compass",
+        "created",
+        "applicable_date",
+        "min_temp",
+        "max_temp",
+        "the_temp",
+        "wind_speed",
+        "wind_direction",
+        "air_pressure",
+        "humidity",
+        "visibility",
+        "predictability"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "weather_state_name": {
+          "type": "string"
+        },
+        "weather_state_abbr": {
+          "type": "string"
+        },
+        "wind_direction_compass": {
+          "type": "string"
+        },
+        "created": {
+          "type": "string"
+        },
+        "applicable_date": {
+          "type": "string"
+        },
+        "min_temp": {
+          "type": "number"
+        },
+        "max_temp": {
+          "type": "number"
+        },
+        "the_temp": {
+          "type": "number"
+        },
+        "wind_speed": {
+          "type": "number"
+        },
+        "wind_direction": {
+          "type": "integer"
+        },
+        "air_pressure": {
+          "type": "integer"
+        },
+        "humidity": {
+          "type": "integer"
+        },
+        "visibility": {
+          "type": "number"
+        },
+        "predictability": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "id",
+        "weather_state_name",
+        "weather_state_abbr",
+        "wind_direction_compass",
+        "created",
+        "applicable_date",
+        "min_temp",
+        "max_temp",
+        "the_temp",
+        "wind_speed",
+        "wind_direction",
+        "air_pressure",
+        "humidity",
+        "visibility",
+        "predictability"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "weather_state_name": {
+          "type": "string"
+        },
+        "weather_state_abbr": {
+          "type": "string"
+        },
+        "wind_direction_compass": {
+          "type": "string"
+        },
+        "created": {
+          "type": "string"
+        },
+        "applicable_date": {
+          "type": "string"
+        },
+        "min_temp": {
+          "type": "number"
+        },
+        "max_temp": {
+          "type": "number"
+        },
+        "the_temp": {
+          "type": "number"
+        },
+        "wind_speed": {
+          "type": "number"
+        },
+        "wind_direction": {
+          "type": "number"
+        },
+        "air_pressure": {
+          "type": "integer"
+        },
+        "humidity": {
+          "type": "integer"
+        },
+        "visibility": {
+          "type": "number"
+        },
+        "predictability": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "id",
+        "weather_state_name",
+        "weather_state_abbr",
+        "wind_direction_compass",
+        "created",
+        "applicable_date",
+        "min_temp",
+        "max_temp",
+        "the_temp",
+        "wind_speed",
+        "wind_direction",
+        "air_pressure",
+        "humidity",
+        "visibility",
+        "predictability"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "weather_state_name": {
+          "type": "string"
+        },
+        "weather_state_abbr": {
+          "type": "string"
+        },
+        "wind_direction_compass": {
+          "type": "string"
+        },
+        "created": {
+          "type": "string"
+        },
+        "applicable_date": {
+          "type": "string"
+        },
+        "min_temp": {
+          "type": "number"
+        },
+        "max_temp": {
+          "type": "number"
+        },
+        "the_temp": {
+          "type": "number"
+        },
+        "wind_speed": {
+          "type": "number"
+        },
+        "wind_direction": {
+          "type": "number"
+        },
+        "air_pressure": {
+          "type": "integer"
+        },
+        "humidity": {
+          "type": "integer"
+        },
+        "visibility": {
+          "type": "number"
+        },
+        "predictability": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "id",
+        "weather_state_name",
+        "weather_state_abbr",
+        "wind_direction_compass",
+        "created",
+        "applicable_date",
+        "min_temp",
+        "max_temp",
+        "the_temp",
+        "wind_speed",
+        "wind_direction",
+        "air_pressure",
+        "humidity",
+        "visibility",
+        "predictability"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "weather_state_name": {
+          "type": "string"
+        },
+        "weather_state_abbr": {
+          "type": "string"
+        },
+        "wind_direction_compass": {
+          "type": "string"
+        },
+        "created": {
+          "type": "string"
+        },
+        "applicable_date": {
+          "type": "string"
+        },
+        "min_temp": {
+          "type": "number"
+        },
+        "max_temp": {
+          "type": "number"
+        },
+        "the_temp": {
+          "type": "number"
+        },
+        "wind_speed": {
+          "type": "number"
+        },
+        "wind_direction": {
+          "type": "integer"
+        },
+        "air_pressure": {
+          "type": "integer"
+        },
+        "humidity": {
+          "type": "integer"
+        },
+        "visibility": {
+          "type": "number"
+        },
+        "predictability": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "id",
+        "weather_state_name",
+        "weather_state_abbr",
+        "wind_direction_compass",
+        "created",
+        "applicable_date",
+        "min_temp",
+        "max_temp",
+        "the_temp",
+        "wind_speed",
+        "wind_direction",
+        "air_pressure",
+        "humidity",
+        "visibility",
+        "predictability"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "weather_state_name": {
+          "type": "string"
+        },
+        "weather_state_abbr": {
+          "type": "string"
+        },
+        "wind_direction_compass": {
+          "type": "string"
+        },
+        "created": {
+          "type": "string"
+        },
+        "applicable_date": {
+          "type": "string"
+        },
+        "min_temp": {
+          "type": "number"
+        },
+        "max_temp": {
+          "type": "number"
+        },
+        "the_temp": {
+          "type": "number"
+        },
+        "wind_speed": {
+          "type": "number"
+        },
+        "wind_direction": {
+          "type": "integer"
+        },
+        "air_pressure": {
+          "type": "integer"
+        },
+        "humidity": {
+          "type": "integer"
+        },
+        "visibility": {
+          "type": "number"
+        },
+        "predictability": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "id",
+        "weather_state_name",
+        "weather_state_abbr",
+        "wind_direction_compass",
+        "created",
+        "applicable_date",
+        "min_temp",
+        "max_temp",
+        "the_temp",
+        "wind_speed",
+        "wind_direction",
+        "air_pressure",
+        "humidity",
+        "visibility",
+        "predictability"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "weather_state_name": {
+          "type": "string"
+        },
+        "weather_state_abbr": {
+          "type": "string"
+        },
+        "wind_direction_compass": {
+          "type": "string"
+        },
+        "created": {
+          "type": "string"
+        },
+        "applicable_date": {
+          "type": "string"
+        },
+        "min_temp": {
+          "type": "number"
+        },
+        "max_temp": {
+          "type": "number"
+        },
+        "the_temp": {
+          "type": "number"
+        },
+        "wind_speed": {
+          "type": "number"
+        },
+        "wind_direction": {
+          "type": "number"
+        },
+        "air_pressure": {
+          "type": "integer"
+        },
+        "humidity": {
+          "type": "integer"
+        },
+        "visibility": {
+          "type": "number"
+        },
+        "predictability": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "id",
+        "weather_state_name",
+        "weather_state_abbr",
+        "wind_direction_compass",
+        "created",
+        "applicable_date",
+        "min_temp",
+        "max_temp",
+        "the_temp",
+        "wind_speed",
+        "wind_direction",
+        "air_pressure",
+        "humidity",
+        "visibility",
+        "predictability"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "weather_state_name": {
+          "type": "string"
+        },
+        "weather_state_abbr": {
+          "type": "string"
+        },
+        "wind_direction_compass": {
+          "type": "string"
+        },
+        "created": {
+          "type": "string"
+        },
+        "applicable_date": {
+          "type": "string"
+        },
+        "min_temp": {
+          "type": "number"
+        },
+        "max_temp": {
+          "type": "number"
+        },
+        "the_temp": {
+          "type": "number"
+        },
+        "wind_speed": {
+          "type": "number"
+        },
+        "wind_direction": {
+          "type": "integer"
+        },
+        "air_pressure": {
+          "type": "integer"
+        },
+        "humidity": {
+          "type": "integer"
+        },
+        "visibility": {
+          "type": "null"
+        },
+        "predictability": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "id",
+        "weather_state_name",
+        "weather_state_abbr",
+        "wind_direction_compass",
+        "created",
+        "applicable_date",
+        "min_temp",
+        "max_temp",
+        "the_temp",
+        "wind_speed",
+        "wind_direction",
+        "air_pressure",
+        "humidity",
+        "visibility",
+        "predictability"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "weather_state_name": {
+          "type": "string"
+        },
+        "weather_state_abbr": {
+          "type": "string"
+        },
+        "wind_direction_compass": {
+          "type": "string"
+        },
+        "created": {
+          "type": "string"
+        },
+        "applicable_date": {
+          "type": "string"
+        },
+        "min_temp": {
+          "type": "number"
+        },
+        "max_temp": {
+          "type": "number"
+        },
+        "the_temp": {
+          "type": "number"
+        },
+        "wind_speed": {
+          "type": "number"
+        },
+        "wind_direction": {
+          "type": "integer"
+        },
+        "air_pressure": {
+          "type": "integer"
+        },
+        "humidity": {
+          "type": "integer"
+        },
+        "visibility": {
+          "type": "null"
+        },
+        "predictability": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "id",
+        "weather_state_name",
+        "weather_state_abbr",
+        "wind_direction_compass",
+        "created",
+        "applicable_date",
+        "min_temp",
+        "max_temp",
+        "the_temp",
+        "wind_speed",
+        "wind_direction",
+        "air_pressure",
+        "humidity",
+        "visibility",
+        "predictability"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "weather_state_name": {
+          "type": "string"
+        },
+        "weather_state_abbr": {
+          "type": "string"
+        },
+        "wind_direction_compass": {
+          "type": "string"
+        },
+        "created": {
+          "type": "string"
+        },
+        "applicable_date": {
+          "type": "string"
+        },
+        "min_temp": {
+          "type": "number"
+        },
+        "max_temp": {
+          "type": "number"
+        },
+        "the_temp": {
+          "type": "number"
+        },
+        "wind_speed": {
+          "type": "number"
+        },
+        "wind_direction": {
+          "type": "integer"
+        },
+        "air_pressure": {
+          "type": "integer"
+        },
+        "humidity": {
+          "type": "integer"
+        },
+        "visibility": {
+          "type": "null"
+        },
+        "predictability": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "id",
+        "weather_state_name",
+        "weather_state_abbr",
+        "wind_direction_compass",
+        "created",
+        "applicable_date",
+        "min_temp",
+        "max_temp",
+        "the_temp",
+        "wind_speed",
+        "wind_direction",
+        "air_pressure",
+        "humidity",
+        "visibility",
+        "predictability"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "weather_state_name": {
+          "type": "string"
+        },
+        "weather_state_abbr": {
+          "type": "string"
+        },
+        "wind_direction_compass": {
+          "type": "string"
+        },
+        "created": {
+          "type": "string"
+        },
+        "applicable_date": {
+          "type": "string"
+        },
+        "min_temp": {
+          "type": "number"
+        },
+        "max_temp": {
+          "type": "number"
+        },
+        "the_temp": {
+          "type": "number"
+        },
+        "wind_speed": {
+          "type": "number"
+        },
+        "wind_direction": {
+          "type": "integer"
+        },
+        "air_pressure": {
+          "type": "integer"
+        },
+        "humidity": {
+          "type": "integer"
+        },
+        "visibility": {
+          "type": "null"
+        },
+        "predictability": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "id",
+        "weather_state_name",
+        "weather_state_abbr",
+        "wind_direction_compass",
+        "created",
+        "applicable_date",
+        "min_temp",
+        "max_temp",
+        "the_temp",
+        "wind_speed",
+        "wind_direction",
+        "air_pressure",
+        "humidity",
+        "visibility",
+        "predictability"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "weather_state_name": {
+          "type": "string"
+        },
+        "weather_state_abbr": {
+          "type": "string"
+        },
+        "wind_direction_compass": {
+          "type": "string"
+        },
+        "created": {
+          "type": "string"
+        },
+        "applicable_date": {
+          "type": "string"
+        },
+        "min_temp": {
+          "type": "number"
+        },
+        "max_temp": {
+          "type": "number"
+        },
+        "the_temp": {
+          "type": "number"
+        },
+        "wind_speed": {
+          "type": "number"
+        },
+        "wind_direction": {
+          "type": "integer"
+        },
+        "air_pressure": {
+          "type": "integer"
+        },
+        "humidity": {
+          "type": "integer"
+        },
+        "visibility": {
+          "type": "null"
+        },
+        "predictability": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "id",
+        "weather_state_name",
+        "weather_state_abbr",
+        "wind_direction_compass",
+        "created",
+        "applicable_date",
+        "min_temp",
+        "max_temp",
+        "the_temp",
+        "wind_speed",
+        "wind_direction",
+        "air_pressure",
+        "humidity",
+        "visibility",
+        "predictability"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "weather_state_name": {
+          "type": "string"
+        },
+        "weather_state_abbr": {
+          "type": "string"
+        },
+        "wind_direction_compass": {
+          "type": "string"
+        },
+        "created": {
+          "type": "string"
+        },
+        "applicable_date": {
+          "type": "string"
+        },
+        "min_temp": {
+          "type": "number"
+        },
+        "max_temp": {
+          "type": "number"
+        },
+        "the_temp": {
+          "type": "number"
+        },
+        "wind_speed": {
+          "type": "number"
+        },
+        "wind_direction": {
+          "type": "integer"
+        },
+        "air_pressure": {
+          "type": "integer"
+        },
+        "humidity": {
+          "type": "integer"
+        },
+        "visibility": {
+          "type": "null"
+        },
+        "predictability": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "id",
+        "weather_state_name",
+        "weather_state_abbr",
+        "wind_direction_compass",
+        "created",
+        "applicable_date",
+        "min_temp",
+        "max_temp",
+        "the_temp",
+        "wind_speed",
+        "wind_direction",
+        "air_pressure",
+        "humidity",
+        "visibility",
+        "predictability"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "weather_state_name": {
+          "type": "string"
+        },
+        "weather_state_abbr": {
+          "type": "string"
+        },
+        "wind_direction_compass": {
+          "type": "string"
+        },
+        "created": {
+          "type": "string"
+        },
+        "applicable_date": {
+          "type": "string"
+        },
+        "min_temp": {
+          "type": "number"
+        },
+        "max_temp": {
+          "type": "number"
+        },
+        "the_temp": {
+          "type": "number"
+        },
+        "wind_speed": {
+          "type": "number"
+        },
+        "wind_direction": {
+          "type": "integer"
+        },
+        "air_pressure": {
+          "type": "integer"
+        },
+        "humidity": {
+          "type": "integer"
+        },
+        "visibility": {
+          "type": "null"
+        },
+        "predictability": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "id",
+        "weather_state_name",
+        "weather_state_abbr",
+        "wind_direction_compass",
+        "created",
+        "applicable_date",
+        "min_temp",
+        "max_temp",
+        "the_temp",
+        "wind_speed",
+        "wind_direction",
+        "air_pressure",
+        "humidity",
+        "visibility",
+        "predictability"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "weather_state_name": {
+          "type": "string"
+        },
+        "weather_state_abbr": {
+          "type": "string"
+        },
+        "wind_direction_compass": {
+          "type": "string"
+        },
+        "created": {
+          "type": "string"
+        },
+        "applicable_date": {
+          "type": "string"
+        },
+        "min_temp": {
+          "type": "number"
+        },
+        "max_temp": {
+          "type": "number"
+        },
+        "the_temp": {
+          "type": "number"
+        },
+        "wind_speed": {
+          "type": "number"
+        },
+        "wind_direction": {
+          "type": "integer"
+        },
+        "air_pressure": {
+          "type": "integer"
+        },
+        "humidity": {
+          "type": "integer"
+        },
+        "visibility": {
+          "type": "null"
+        },
+        "predictability": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "id",
+        "weather_state_name",
+        "weather_state_abbr",
+        "wind_direction_compass",
+        "created",
+        "applicable_date",
+        "min_temp",
+        "max_temp",
+        "the_temp",
+        "wind_speed",
+        "wind_direction",
+        "air_pressure",
+        "humidity",
+        "visibility",
+        "predictability"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "weather_state_name": {
+          "type": "string"
+        },
+        "weather_state_abbr": {
+          "type": "string"
+        },
+        "wind_direction_compass": {
+          "type": "string"
+        },
+        "created": {
+          "type": "string"
+        },
+        "applicable_date": {
+          "type": "string"
+        },
+        "min_temp": {
+          "type": "number"
+        },
+        "max_temp": {
+          "type": "number"
+        },
+        "the_temp": {
+          "type": "number"
+        },
+        "wind_speed": {
+          "type": "number"
+        },
+        "wind_direction": {
+          "type": "integer"
+        },
+        "air_pressure": {
+          "type": "integer"
+        },
+        "humidity": {
+          "type": "integer"
+        },
+        "visibility": {
+          "type": "null"
+        },
+        "predictability": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "id",
+        "weather_state_name",
+        "weather_state_abbr",
+        "wind_direction_compass",
+        "created",
+        "applicable_date",
+        "min_temp",
+        "max_temp",
+        "the_temp",
+        "wind_speed",
+        "wind_direction",
+        "air_pressure",
+        "humidity",
+        "visibility",
+        "predictability"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "weather_state_name": {
+          "type": "string"
+        },
+        "weather_state_abbr": {
+          "type": "string"
+        },
+        "wind_direction_compass": {
+          "type": "string"
+        },
+        "created": {
+          "type": "string"
+        },
+        "applicable_date": {
+          "type": "string"
+        },
+        "min_temp": {
+          "type": "number"
+        },
+        "max_temp": {
+          "type": "number"
+        },
+        "the_temp": {
+          "type": "number"
+        },
+        "wind_speed": {
+          "type": "number"
+        },
+        "wind_direction": {
+          "type": "integer"
+        },
+        "air_pressure": {
+          "type": "integer"
+        },
+        "humidity": {
+          "type": "integer"
+        },
+        "visibility": {
+          "type": "null"
+        },
+        "predictability": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "id",
+        "weather_state_name",
+        "weather_state_abbr",
+        "wind_direction_compass",
+        "created",
+        "applicable_date",
+        "min_temp",
+        "max_temp",
+        "the_temp",
+        "wind_speed",
+        "wind_direction",
+        "air_pressure",
+        "humidity",
+        "visibility",
+        "predictability"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "weather_state_name": {
+          "type": "string"
+        },
+        "weather_state_abbr": {
+          "type": "string"
+        },
+        "wind_direction_compass": {
+          "type": "string"
+        },
+        "created": {
+          "type": "string"
+        },
+        "applicable_date": {
+          "type": "string"
+        },
+        "min_temp": {
+          "type": "number"
+        },
+        "max_temp": {
+          "type": "number"
+        },
+        "the_temp": {
+          "type": "number"
+        },
+        "wind_speed": {
+          "type": "number"
+        },
+        "wind_direction": {
+          "type": "integer"
+        },
+        "air_pressure": {
+          "type": "integer"
+        },
+        "humidity": {
+          "type": "integer"
+        },
+        "visibility": {
+          "type": "null"
+        },
+        "predictability": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "id",
+        "weather_state_name",
+        "weather_state_abbr",
+        "wind_direction_compass",
+        "created",
+        "applicable_date",
+        "min_temp",
+        "max_temp",
+        "the_temp",
+        "wind_speed",
+        "wind_direction",
+        "air_pressure",
+        "humidity",
+        "visibility",
+        "predictability"
+      ]
+    }
+  ]
+}
