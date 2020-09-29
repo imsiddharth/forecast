@@ -41,13 +41,6 @@ public class AppTest extends Assertions {
 
     @Before
     public void setUp() throws IOException {
-//        String localDir = System.getProperty("user.dir");
-//        String source = localDir+"/src/test/resources/__files/forecast_schema.json";
-//        String destination = localDir+"/target/classes/forecast_schema.json";
-//        System.out.println(localDir);
-//        File sourceFile = new File(source);
-//        File destinationFile = new File(destination);
-//        Files.copy(sourceFile.toPath(),destinationFile.toPath());
         forecastService = new ForecastServiceImpl(RETROFIT);
         forecastServiceServer.start();
         WireMock.configureFor("localhost", forecastServiceServer.port());
